@@ -1,0 +1,15 @@
+<h3 class="title">Bitcoin</h3>
+
+<div class="container__graph"></div>
+
+<section class="container__historic">
+  <header class="header__historic">
+    <p>day</p>
+    <p>price</p>
+  </header>
+
+  <div class="historic">
+    <app-item-price class="price-today"></app-item-price>
+    <app-item-price *ngFor="let item of historicList" class="previous-price"></app-item-price>
+  </div>
+</section>
