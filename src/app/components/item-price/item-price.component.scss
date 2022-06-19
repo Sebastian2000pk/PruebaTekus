@@ -1,7 +1,13 @@
 .container__item {
   display: flex;
   justify-content: space-between;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   border-radius: 4px;
   padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: ease-in-out 0.1s;
+}
+.container__item:hover {
+  transform: scale3d(1.02, 1.05, 1);
 }
